@@ -1,0 +1,136 @@
+html, body {
+               margin: 0;
+               padding: 0;
+               font-family: 'Poppins', sans-serif;
+               background: #111827;
+               
+           }
+.container{
+    width: 550px;
+    height: 600px;
+    background: #FEF3C7;
+    margin: auto;
+}
+.head-section{
+    width: 550px;
+    height: 150px;
+    text-align: center;
+    color: white;
+    background: #D97706;
+    
+}
+h1{
+    font-size: 35px;
+    padding-top: 20px;
+    font-weight: 1000px;
+
+}
+p{
+    font-size: 15px;
+}
+.header-desc{
+    margin-top: -20px;
+    font-size: 12px;
+}
+ .columns{
+    display: flex;
+    margin-left: 20px;
+ }
+
+button{
+    width: 143px;
+    height: 47px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 7px;
+    background: #D97706;
+    border: 3px solid white;
+    cursor: pointer;
+    font-size: 14px;
+    color: #FEF3C7;
+
+}
+button:hover{
+    border: 3px solid #059669; 
+    color: #1F2937; 
+    background: white;
+}
+.section3{
+    width: 461px;
+    border-bottom: 2px solid #D97706;
+    margin-left: 40px;
+    margin-top: 10px;
+    display: flex;
+}
+.section4{
+    width: 461px;
+    height: 70px;
+    margin-left: 40px;
+    margin-top: 10px;
+    display: flex;
+}
+/* h4{
+    font-size: 14px; 
+    margin-bottom: 0;
+    
+} */
+.remove{
+    font-size: 10px;
+    width: 50px;
+    height: 19px;
+    background: #FEF3C7;
+    color: #1F2937;
+    margin-left: 0px;
+    margin-top: 0;
+    border: none;
+    cursor: pointer;
+    
+}
+h3{
+    margin-top: 10px;
+
+} 
+#column{
+    width: 460px;
+}
+ #coulmn1{
+    padding-left: 20px;
+} 
+.text_accent{
+    font-size: 10px;
+    margin-bottom: 0;
+
+}
+.notes{
+    font-size: 11px;
+    color: #059669;
+    font-weight: 1000;
+}
+.h3_accent{
+    font-size: 15px;
+}
+.total-amount{
+   font-size: 28px;
+   padding-left:45px;
+   margin-top: 0;
+   color: #059669;
+} 
+.total-wrapper{
+     /* border: 2px solid #059669;  */
+    margin-left: 13px;
+    width: 80px;
+} 
+.notes-wrapper{
+    width: 310px;
+}
+.coulmn2{
+    margin-left: 61px;
+}
+.reset{
+    width: 400px;
+    height: 40px;
+    background:#D97706;
+    margin-top:20px;
+    margin-left: 30px;
+
+}

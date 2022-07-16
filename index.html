@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+               <meta charset="UTF-8">
+               <meta http-equiv="X-UA-Compatible" content="IE=edge">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <title>Invoice Generator</title>
+               <!-- -----CSS------ -->
+               <link rel="preconnect" href="https://fonts.googleapis.com">
+               <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+               <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+               <link rel="preconnect" href="https://fonts.googleapis.com">
+               <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+               <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+               <link rel="stylesheet" href="css/all.min.css">
+               <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+      <div class="container">
+        <section class="head-section">
+             <h1>Invoice creator</h1>
+             <p class="header-desc">Thanks for choosing GoodCorp, LLC!</p>
+        </section> 
+        <div class="columns">
+            <div class="col">
+               <button id="Washcar-Btn">Wash Car: $10</button>
+             </div>
+             <div class="col">
+              <button id="MowLawn-Btn">Mow Lawn: $20</button>
+            </div>
+            <div class="col">
+              <button id="PullWeeds-Btn">Pull Weeds: $30</button>
+            </div>
+        </div> 
+        <div class="section3">
+             <div id="column">
+                 <h4 class="text_accent">TASK</h4>
+                <!-- <h3 class="h3_accent">Wash Car  <span><button class="remove">remove</button></span></h3> -->
+                <!-- <h3 class="h3_accent">Mow Lawn  <span><button class="remove">remove</button></span></h3>
+                  <h3 class="h3_accent">Pull Weeds  <span><button class="remove">remove</button></span></h3> -->
+                
+             </div>
+             <div id="coulmn1">
+               <h4 class="text_accent">TOTAL</h4> 
+              <!-- <h3 class="h3_accent">$10</h3>
+              <h3 class="h3_accent">$20</h3>
+              <h3 class="h3_accent">$30</h3> -->
+           </div>
+
+        </div>,
+
+        <div class="section4">
+          <div class="coulmn">
+             <h4 class="text_accent">NOTES</h4>
+             <div class="notes-wrapper">
+              <p class="notes">We accept Cash,Credit card, or PayPal</p>  
+             </div>
+             
+          </div>
+          <div class="coulmn2">
+            <div class="total-wrapper">
+              <h4 class="text_accent">TOTAL <span>AMOUNT</span></h4>
+            </div>
+          
+           <h3 class="total-amount" id="price-el"></h3>
+      
+        </div>
+       
+     </div>
+            <div class="section4">
+                <button class="reset" id="SendInvoice-Btn">Send invoice</button>
+            </div>
+
+      </div>
+
+    <script src="index.js"></script>           
+</body>
+</html>
