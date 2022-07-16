@@ -1,1 +1,1 @@
-# Invoice-Generator
+# Invoice-Generator Personal Project
